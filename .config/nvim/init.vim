@@ -51,4 +51,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 call plug#begin()
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'vim-airline/vim-airline'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
