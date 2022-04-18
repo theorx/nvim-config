@@ -24,3 +24,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 * Install it on your machine (In ubuntu as simple as executing the file from nautilus)
 * Select terminal preferences and choose the newly installed font
 
+
+## Installing CoC for C language
+__These commands are to be executed in `nvim`__
+*coc-clangd installation might not always work, and you might need to opt for `apt-get install clangd` as a workaround.*
+* :PlugInstall - `Installs plugins`
+* :CocInstall coc-clangd - `Installs clangd support for Coc`
+* :CocCommand clangd.install - `Installs clangd`
+
